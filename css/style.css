@@ -1009,13 +1009,13 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 /*--Main Banner--*/
-#banner_ad {
+#tritori {
 	bottom: 0%;
 	max-width: 100%;
 	position: absolute;
 	right: 0%;
 }
-.banner_bottom_full {
+.tritori_bottom_full {
 	position: relative;
 	padding: 0px;
 	width: 100%;
@@ -1023,20 +1023,20 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	border-color: transparent transparent rgba(0, 0, 0, 0) transparent;
 	height: 100px;
 }
-.arch_banner {
+.tritori_logo {
 	padding: 5px;
 	width: 100%;
 	float: right;
 	margin: 20px 0px 0px 0px;
 }
-.arch_banner p {
+.tritori_logo p {
 	font-size: 22px;
 	text-align: left;
 	color: #fff;
 	line-height: 17px;
 	font-family: Raleway-thin;
 }
-.arch_banner p b {
+.tritori_logo p b {
 	font-size: 29px;
 	text-align: left;
 	color: #fff;
