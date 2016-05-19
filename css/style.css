@@ -990,7 +990,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 .tritori_logo p {
 	font-size: 26px;
-	text-align: left;
+	text-align: center;
 	color: #fff;
 	line-height: 17px;
 	font-family: Raleway-thin;
