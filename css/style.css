@@ -977,7 +977,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	position: relative;
 	padding: 0px;
 	width: 100%;
-	background: #c5723b;
+	background: rgba(100,100,100,0.5);
 	border-color: transparent transparent rgba(0, 0, 0, 0) transparent;
 	height: 100px;
 }
@@ -986,9 +986,10 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	width: 100%;
 	float: right;
 	margin: 20px 0px 0px 0px;
+
 }
 .tritori_logo p {
-	font-size: 22px;
+	font-size: 26px;
 	text-align: left;
 	color: #fff;
 	line-height: 17px;
@@ -999,7 +1000,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	text-align: left;
 	color: #fff;
 	line-height: 17px;
-	font-family: Raleway-thin;
+	font-family: Raleway-regular;
 }
 .architec-logo {
 	float: left;
