@@ -5,14 +5,12 @@
 	- Start Links defaults style		Line 55 - 103
 	- Header							Line 106 - 137
 	- Navigation						Line 139 - 207
-	- HeaderBanner		 				Line 209 - 296
 	- FeatureBox						Line 298 - 366
 	- Sorting Filters					Line 368 - 458
 	- Blog Section			 			Line 460 - 520
 	- Recent Posts		 				Line 522 - 566
 	- Our Clients						Line 568 - 668
 	- Footer							Line 670 - 938
-	- Banner							Line 953 - 1007
 	- Inner Pages						Line 1009 - 1818
 	- Testimonials		 				Line 1892 - 1976
 	- Error Page						Line 1979 - 2011
@@ -264,7 +262,6 @@ a img {
 }
 /*----Navigation Ends ------*/
 
-/*----- Banner Start ------*/
 #main_slider {
 	position: relative;
 	overflow: hidden;
@@ -295,7 +292,7 @@ a img {
 	width: 100%;
 }
 #main_slider .bx-wrapper .bx-prev {
-	background: url("../images/banner_arrows.png") no-repeat scroll right top transparent;
+	background: url("../images/tritori_arrows.png") no-repeat scroll right top transparent;
 	top: 50%;
 	display: block;
 	height: 36px;
@@ -306,7 +303,7 @@ a img {
 	width: 30px;
 }
 #main_slider .bx-wrapper .bx-next {
-	background: url("../images/banner_arrows.png") no-repeat scroll left top transparent;
+	background: url("../images/tritori_arrows.png") no-repeat scroll left top transparent;
 	top: 50%;
 	display: block;
 	height: 36px;
@@ -314,44 +311,6 @@ a img {
 	left: 3%;
 	width: 30px;
 }
-
-.adv_banner {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	color: #cbc39f;
-}
-.adv_banner h4 {
-	color: #fff;
-	font-size: 20px;
-	margin: 15px 0 0;
-	line-height: 30px;
-	font-family: 'Lato', sans-serif;
-	font-style: italic;
-	letter-spacing: 1px;
-}
-.adv_banner p {
-	font-size: 18px;
-	font-family: 'Lato', sans-serif;
-}
-.adv_link {
-	background: #a39b79;
-	display: inline-block;
-	text-align: center;
-	color: #fff;
-	font-weight: bold;
-	padding: 15px 40px;
-	text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
-	float: right;
-	margin: 15px 0;
-	text-transform: uppercase;
-}
-.adv_link:hover {
-	color: #000;
-	text-shadow: 2px 1px 1px rgba(255, 255, 255, 1);
-	text-decoration: none;
-}
-/*----- Banner Ends ------*/
 
 /*----- Feature Holder ------*/
 #feature_holder {
@@ -1008,7 +967,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	padding: 25px 0;
 }
 
-/*--Main Banner--*/
 #tritori {
 	bottom: 0%;
 	max-width: 100%;
@@ -1062,7 +1020,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	background: rgba(0, 0, 0, 0.2);
 	color: #fff;
 }
-/*--Main Banner End--*/
 
 /* --Inner Pages Blog, Blog Detail, About Us, Contact Us, Career, Faq, Portfolio, Services --*/
 .wrap-blog-post {
