@@ -478,6 +478,7 @@ a img {
 #content_Wrapper {
 	position: relative;
 	z-index: 111;
+	min-height: calc(100vh - 312px);
 }
 #blog_header {
 	border-bottom: 5px solid rgba(81, 28, 1, 0.5);
@@ -604,7 +605,7 @@ font-weight:normal;
 	color: #000;
 	margin: 0;
 	position: absolute;
-	left: 45.0%;
+	left: 45.8%;
 	right: 0px;
 	margin: auto;
 	display: table;
@@ -1135,6 +1136,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	box-sizing: border-box;
 	height: 42px;
 }
+
 .search form {
 	position: relative;
 	float: left;
@@ -2073,7 +2075,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	margin: 0 0 10px;
 }
 .right-sidebar a {
-	display: block;
+	display: inline;
 	color: #fff;
 }
 /* contact us css end */
