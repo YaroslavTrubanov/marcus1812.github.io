@@ -5094,6 +5094,7 @@ to {
 
 .modal-content p{
 	color: black;
+	line-height: 16px;
 }
 .modal.fade {
 	-webkit-transition: opacity .3s linear, top .3s ease-out;
@@ -5950,6 +5951,7 @@ margin:-1px 0px 0px 0px
 	left: 20px;
 	right: 20px;
 	width: auto;
+	height: auto;
 	margin: 0;
 }
 .modal.fade {
